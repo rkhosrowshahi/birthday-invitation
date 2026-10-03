@@ -71,3 +71,5 @@ button:focus-visible,a:focus-visible{outline-color:#ff6969}
 #details .ticket{text-align:center}
 #details .map-links{justify-content:center}
 #details .text-button{margin-left:auto;margin-right:auto}
+#details .text-button{display:inline-block;text-decoration:none;background:#211010;border:1px solid #653030;border-radius:5px;color:#f3dddd;padding:13px 22px;margin-top:18px;font-weight:600;min-height:44px}
+#details .text-button:hover{background:#391717;border-color:#a54848}

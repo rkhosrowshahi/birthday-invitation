@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>You're invited! · Birthday party</title><meta name="description" content="A little invitation to a very happy birthday. Come celebrate with me!">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🎂%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="style.css"><script defer src="party.js"></script><script defer src="app.js"></script>
+</head>
+<body>
+<div class="sprinkles" aria-hidden="true"><span>✦</span><span>✷</span><span>✦</span><span>✷</span><span>✦</span><span>✷</span></div>
+<main>
+<div class="eyebrow">A LITTLE INVITATION, JUST FOR YOU</div>
+<section id="invitation" aria-labelledby="question">
+<div class="cake" aria-hidden="true">🎂<span>✦</span></div>
+<p class="hello">Hey friend,</p>
+<h1 id="question">would you like to join<br>my <em>birthday party?</em></h1>
+<p class="intro">Good company. A little cake. A lot of memories.</p>
+<div class="choices"><button id="yes" class="primary">Yes, count me in! <span aria-hidden="true">♥</span></button><button id="no" class="secondary">No</button></div>
+<p id="tease" class="tease" aria-live="polite">A celebration is better with you.</p>
+</section>
+<section id="details" hidden aria-labelledby="celebrate">
+<div class="cake" aria-hidden="true">🥳</div><p class="hello">That's a yes!</p>
+<h1 id="celebrate">Let’s make some<br><em>happy memories.</em></h1>
+<p id="host-line" class="intro">I can’t wait to celebrate with you.</p>
+<div class="ticket"><div><span class="label">WHEN</span><p id="when"></p></div><div><span class="label">WHERE</span><p id="where"></p></div></div>
+<div id="maps" hidden><p class="map-label">Choose your way there</p><div class="map-links"><a id="google" target="_blank" rel="noopener">Google Maps</a><a id="apple" target="_blank" rel="noopener">Apple Maps</a><a id="waze" target="_blank" rel="noopener">Waze</a></div></div>
+<p id="coming-soon" class="tease">Party details are coming soon. Stay tuned!</p>
+<button id="back" class="text-button">Back to invitation</button>
+</section>
+<footer>Made with love & a little birthday magic ✦</footer>
+</main><div id="confetti" aria-hidden="true"></div>
+</body></html>

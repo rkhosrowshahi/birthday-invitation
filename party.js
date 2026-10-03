@@ -1,7 +1,7 @@
 // Edit these details, then push to GitHub to update your invitation.
 window.PARTY = {
-  host: '',
-  dateAndTime: '', // Example: Saturday, October 24, 2026 · 7:00 PM
-  address: '', // Full street address, city, and country for accurate directions
-  venue: '' // Optional venue name
+  host: 'Rasa',
+  dateAndTime: 'Sunday, October 4, 2026 · 6 PM',
+  address: 'Unit 612, 461 Green Road, Stoney Creek, ON, Canada',
+  venue: ''
 };

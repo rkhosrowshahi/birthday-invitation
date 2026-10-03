@@ -32,3 +32,5 @@ button:focus-visible,a:focus-visible{outline-color:#ff6969}
 /* Leave a clear gap between the completion message and replay control. */
 .core-trigger{bottom:-16px}.game-status{bottom:48px}
 @media(max-width:650px){.game-status{bottom:48px}.graphic{margin-bottom:51px}}
+.spark-target{background:#ffd43b;filter:drop-shadow(0 0 8px #ffd43b);box-shadow:0 0 25px #ffd43b99}.spark-target:hover{background:#fff09c}
+@keyframes sparkPulse{50%{box-shadow:0 0 40px #ffd43bcc;transform:scale(.9)}}

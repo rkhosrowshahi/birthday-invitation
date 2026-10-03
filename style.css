@@ -29,3 +29,6 @@ button:focus-visible,a:focus-visible{outline-color:#ff6969}
 
 .ticket>div+div{border-top:0}.ticket{border:0;border-left:0}
 .ambient{display:none}
+/* Leave a clear gap between the completion message and replay control. */
+.core-trigger{bottom:-16px}.game-status{bottom:48px}
+@media(max-width:650px){.game-status{bottom:48px}.graphic{margin-bottom:51px}}

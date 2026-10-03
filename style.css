@@ -9,3 +9,18 @@ h1{font-size:clamp(48px,7vw,88px);letter-spacing:-3px}@media(max-width:650px){h1
 body{background:radial-gradient(ellipse at 80% 35%,#55301f44,transparent 50%),#101211}.graphic{width:420px;height:420px;top:45px;right:-35px}.graphic-label{display:none}.core-trigger{position:absolute;bottom:0;left:50%;transform:translateX(-50%);border:1px solid #ff996855;background:#211a15;color:#ffba90;border-radius:100px;padding:12px 22px;font-size:14px;white-space:nowrap}.core-trigger:hover{background:#39251b}.graphic canvas{height:calc(100% - 44px)}.primary{background:#ff784b;color:#17120e;box-shadow:0 8px 35px #ff784b22}.primary:hover{background:#ff986e}em{color:#ff986e}.eyebrow{color:#ffba90}@media(max-width:900px) and (min-width:651px){.graphic{width:270px;height:340px;top:80px;right:-10px}}@media(max-width:650px){.graphic{width:100%;height:280px;top:auto;right:auto;margin-bottom:35px}.graphic canvas{height:calc(100% - 44px)}.core-trigger{padding:10px 20px}section{padding-top:20px}}
 
 .spark-target{position:absolute;left:50%;top:20%;width:48px;height:48px;border-radius:50%;background:#ffbc47;border:6px solid #fff5;box-shadow:0 0 25px #ffbc4799;z-index:2;touch-action:manipulation;animation:sparkPulse 1s ease-in-out infinite}.spark-target:hover{background:#ffe6a3}.game-status{position:absolute;bottom:40px;left:0;width:100%;text-align:center;font-size:14px;color:#e6caaa;margin:0;line-height:1.5;pointer-events:none}.graphic canvas{height:calc(100% - 80px)}@keyframes sparkPulse{50%{box-shadow:0 0 40px #ffbc47cc;transform:scale(.9)}}@media(max-width:650px){.graphic{height:310px}.graphic canvas{height:calc(100% - 80px)}.game-status{font-size:13px;bottom:42px}}
+
+/* Red and black theme. */
+:root{color:#f5eeee;background:#080808}
+body{background:radial-gradient(ellipse at 80% 35%,#620c1644,transparent 50%),#080808}
+.ambient{background-image:linear-gradient(#ff333309 1px,transparent 1px),linear-gradient(90deg,#ff333309 1px,transparent 1px)}
+.eyebrow{color:#ff6969;border-color:#352020}.edition,.hello,.intro,.tease,footer{color:#b5a5a5}em{color:#ff4848}
+.primary{background:#e52e35;color:#fff;box-shadow:0 8px 35px #e52e3522}.primary:hover{background:#fa4048}
+.secondary{background:#171010;border-color:#543232;color:#d8c5c5}
+button:focus-visible,a:focus-visible{outline-color:#ff6969}
+.ticket{background:#160e0e;border-color:#482525;border-left-color:#ed333b}.ticket>div+div{border-color:#482525}.label,.map-label{color:#d9a4a4}
+.map-links a{color:#ff8e8e;border-color:#653030;background:#1c1010}.map-links a:hover{background:#351818}.text-button{color:#d9a4a4}
+.core-trigger{border-color:#ff555566;background:#211010;color:#ff9c9c}.core-trigger:hover{background:#391717}
+.spark-target{background:#ff353f;border-color:#ffd3d388;box-shadow:0 0 25px #ff353f99}.spark-target:hover{background:#ff8389}
+.game-status{color:#e5baba}footer{border-color:#352020}
+@keyframes sparkPulse{50%{box-shadow:0 0 40px #ff353fcc;transform:scale(.9)}}

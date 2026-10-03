@@ -4,7 +4,7 @@ const invitation = document.querySelector('#invitation');
 const details = document.querySelector('#details');
 const party = window.PARTY || {};
 let attempts = 0;
-const messages = ['Request denied. Try the green button.', 'That No is getting harder to defend.', 'Nice try. Your spot is still reserved.', 'The Yes button makes a compelling argument.', 'Still running from a good time?'];
+const messages = ['Request denied. Try the red button.', 'That No is getting harder to defend.', 'Nice try. Your spot is still reserved.', 'The Yes button makes a compelling argument.', 'Still running from a good time?'];
 function moveNo() {
   attempts++;
   no.style.fontSize = `${Math.max(9, 16 * Math.pow(.87, attempts))}px`;
@@ -44,7 +44,7 @@ yes.addEventListener('click',()=>{
  document.querySelector('#celebrate').tabIndex=-1;document.querySelector('#celebrate').focus();
  if(!matchMedia('(prefers-reduced-motion: reduce)').matches){
   const container=document.querySelector('#confetti');container.replaceChildren();
-  for(let i=0;i<60;i++){const bit=document.createElement('i');bit.className='confetto';bit.style.left=`${Math.random()*100}%`;bit.style.background=['#c4ff48','#eff7e6','#5a7668','#87bc26'][i%4];bit.style.animationDelay=`${Math.random()*.8}s`;container.append(bit);}
+  for(let i=0;i<60;i++){const bit=document.createElement('i');bit.className='confetto';bit.style.left=`${Math.random()*100}%`;bit.style.background=['#ff2535','#ffffff','#bd1727','#ff626c'][i%4];bit.style.animationDelay=`${Math.random()*.8}s`;container.append(bit);}
   setTimeout(()=>container.replaceChildren(),4500);
  }
 });

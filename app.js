@@ -4,7 +4,7 @@ const invitation = document.querySelector('#invitation');
 const details = document.querySelector('#details');
 const party = window.PARTY || {};
 let attempts = 0;
-const messages = ['Request denied. Try the red button.', 'That No is getting harder to defend.', 'Nice try. Your spot is still reserved.', 'The Yes button makes a compelling argument.', 'Still running from a good time?'];
+const messages = ['The No button has commitment issues.', 'That No is getting harder to defend.', 'Nice try. Your spot is still reserved.', 'The Yes button makes a compelling argument.', 'Still running from a good time?'];
 function moveNo() {
   attempts++;
   no.style.fontSize = `${Math.max(9, 16 * Math.pow(.87, attempts))}px`;

@@ -36,3 +36,5 @@ button:focus-visible,a:focus-visible{outline-color:#ff6969}
 @keyframes sparkPulse{50%{box-shadow:0 0 40px #ffd43bcc;transform:scale(.9)}}
 #tease{font-size:20px;font-weight:600;line-height:1.5;color:#f3dddd}
 @media(max-width:650px){#tease{font-size:18px}}
+
+.ticket .parking-note{font-size:16px;color:#d9baba;margin-top:12px;line-height:1.5}

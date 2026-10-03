@@ -48,4 +48,4 @@ yes.addEventListener('click',()=>{
   setTimeout(()=>container.replaceChildren(),4500);
  }
 });
-document.querySelector('#back').addEventListener('click',()=>{details.hidden=true;invitation.hidden=false;attempts=0;yes.removeAttribute('style');no.removeAttribute('style');document.querySelector('#tease').textContent='The No button has commitment issues.';yes.focus();});
+document.querySelector('#back').addEventListener('click',()=>{details.hidden=true;invitation.hidden=false;attempts=0;yes.removeAttribute('style');no.removeAttribute('style');document.querySelector('#tease').textContent='I dare you to say NO!';yes.focus();});

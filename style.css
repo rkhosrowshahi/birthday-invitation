@@ -38,3 +38,31 @@ button:focus-visible,a:focus-visible{outline-color:#ff6969}
 @media(max-width:650px){#tease{font-size:18px}}
 
 .ticket .parking-note{font-size:16px;color:#d9baba;margin-top:12px;line-height:1.5}
+/* Compact phone layout, including space for mobile browser controls. */
+@media(max-width:650px){
+ main{padding:16px 22px 18px}
+ section{padding:8px 0 0;min-height:0}
+ .graphic{height:210px;margin:0 0 22px}
+ .graphic canvas{height:calc(100% - 62px)}
+ .game-status{bottom:28px;font-size:12px;line-height:1.4}
+ .core-trigger{bottom:-12px;padding:8px 18px;font-size:13px}
+ .spark-target{width:44px;height:44px}
+ .hello{font-size:16px;margin:0 0 12px}
+ h1{font-size:42px;line-height:1.04;letter-spacing:-1.5px}
+ .intro{font-size:16px;line-height:1.45;margin:18px 0 16px}
+ .choices{min-height:68px;gap:12px}
+ .primary{padding:16px 23px}
+ .secondary{padding:14px 22px}
+ #tease{font-size:18px;margin:14px 0 0;line-height:1.4}
+ .accepted{font-size:13px;margin:8px 0 18px}
+ #details .intro{margin:18px 0}
+ .ticket{margin:18px 0;padding:18px 20px}
+ .ticket>div+div{padding-top:14px;margin-top:10px}
+ .label{font-size:13px}
+ .ticket p{font-size:16px;line-height:1.4;margin-top:6px}
+ .ticket .parking-note{font-size:15px;line-height:1.4;margin-top:10px}
+ .map-label{font-size:14px;margin:12px 0}
+ .map-links{gap:8px}
+ .map-links a{font-size:14px;padding:12px}
+ .text-button{margin-top:10px;padding:12px 0}
+}

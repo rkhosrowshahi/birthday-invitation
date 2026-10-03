@@ -26,3 +26,5 @@ button:focus-visible,a:focus-visible{outline-color:#ff6969}
 @keyframes sparkPulse{50%{box-shadow:0 0 40px #ff353fcc;transform:scale(.9)}}
 
 .spark-target{border:0;border-radius:0;background:#ff5c67;clip-path:polygon(50% 0,61% 34%,98% 35%,68% 58%,79% 95%,50% 73%,21% 95%,32% 58%,2% 35%,39% 34%);filter:drop-shadow(0 0 8px #ff3548)}.spark-target:hover{background:#fff0f0}.game-status{padding:0 10px}
+
+.ticket>div+div{border-top:0}.ticket{border:0;border-left:0}
